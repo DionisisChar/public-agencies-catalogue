@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body, html {
+  width: 100%;
+  height: 100%;
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+  color: #000000;
+
+  /* 1. Κάνει το ποντίκι pointer πάνω στις γραμμές */
+.p-datatable tbody tr {
+  cursor: pointer;
+}
+
+/* 2. Highlight με ελαφρύ μπλε όταν κάνεις hover σε row */
+.p-datatable tbody tr:hover {
+  background-color: #f0f4ff; /* Ελαφρύ μπλε */
+}
+}
+
+@keyframes bounce-margin {
+  0%, 100% {
+    margin-top: -70px;
+  }
+  50% {
+    margin-top: -52px;
+  }
+}
+
+.leaflet-marker-icon.highlighted-marker {
+  animation: bounce-margin 0.6s ease-in-out infinite;
+  filter: drop-shadow(0 0 5px #0af7ff) brightness(1);
+  z-index: 999 !important;
+}
