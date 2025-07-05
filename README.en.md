@@ -34,7 +34,7 @@ The application:
 - 🔍 Search organizations using filters (name, Ministry, Local Authority, legal form, public/private sector)
 - 🗺️ View organizations on a map (OpenStreetMap)
 - 📄 Integration with Diavgeia API for displaying recent decisions
-- 🧩 Automatic filling of address, phone, website, and coordinates using Google Places API (v1)
+- 🧩 Automatic filling of address, phone, website, and coordinates using Google Places API (New)
 - 👤 Admin panel with CRUD functionality for Ministries, Local Authorities, and Organizations
 - 📤 Mass data update & cleanup using official Excel files from the Ministry of Interior
 
@@ -48,7 +48,7 @@ The application:
 
 - **API Integrations**:
   - [Diavgeia API](https://diavgeia.gov.gr)
-  - [Google Places API v1 (SearchText + Place Details)](https://developers.google.com/maps/documentation/places/web-service/op-overview)
+  - [Google Places API (New) (SearchText + Place Details)](https://developers.google.com/maps/documentation/places/web-service/op-overview)
 
 - **Architecture**:
   - RESTful API
