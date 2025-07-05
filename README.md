@@ -35,7 +35,7 @@
 - 🔍 Αναζήτηση οργανισμών με φίλτρα (όνομα, Υπουργείο, ΟΤΑ, νομική μορφή, δημόσιος/ιδιωτικός τομέας)
 - 🗺️ Προβολή οργανισμών στον χάρτη (OpenStreetMap)
 - 📄 Ενσωμάτωση με Δι@ύγεια API για εμφάνιση πρόσφατων αποφάσεων οργανισμών
-- 🧩 Αυτόματη συμπλήρωση στοιχείων (διεύθυνση, τηλέφωνο, ιστότοπος, συντεταγμένες) μέσω Google Places API (v1)
+- 🧩 Αυτόματη συμπλήρωση στοιχείων (διεύθυνση, τηλέφωνο, ιστότοπος, συντεταγμένες) μέσω Google Places API (New)
 - 👤 Διαχειριστικό περιβάλλον (CRUD για Υπουργεία, ΟΤΑ και Οργανισμούς)
 - 📤 Μαζική ενημέρωση & καθαρισμός της βάσης φορέων με επίσημα δεδομένα του ΥΠΕΣ
 
@@ -48,7 +48,7 @@
 - **Database**: MariaDB
 - **API Ενσωμάτωση**:
   - [Δι@ύγεια API](https://diavgeia.gov.gr)
-  - [Google Places API v1 (SearchText + Place Details)](https://developers.google.com/maps/documentation/places/web-service/op-overview))
+  - [Google Places API (New) (SearchText + Place Details)](https://developers.google.com/maps/documentation/places/web-service/op-overview))
 
 - **Αρχιτεκτονική**:
   - RESTful API
